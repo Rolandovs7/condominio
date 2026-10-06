@@ -1,0 +1,57 @@
+# ===== Laravel =====
+/.phpunit.cache
+/.phpunit.result.cache
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/vendor
+/log
+.env
+.env.backup
+.env.production
+.env.local
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode
+/.nova
+/.vscode/*
+!/.vscode/extensions.json
+/.history
+*.log
+
+# ===== Laravel 11 / assets compilados =====
+/public/build
+/public/css
+/public/js
+/public/assets
+/public/vendor
+/public/mix-manifest.json
+
+# ===== Respaldos y temporales (específicos de tu proyecto) =====
+/.backup_fix_*/
+/routes/*.backup
+/routes/*.bak
+/ssds
+/ssds.*
+*.sql
+*.sqlite
+*.sqlite3
+/database/database.sqlite
+
+# ===== Sistema operativo =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Editores =====
+*.swp
+*.swo
+*~

@@ -55,3 +55,8 @@ desktop.ini
 *.swp
 *.swo
 *~
+# Caché de vistas Blade (Laravel las regenera)
+/storage/framework/views/*.php
+
+# Backups de blade
+*.blade.php.backup
